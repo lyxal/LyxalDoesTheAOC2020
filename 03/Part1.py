@@ -6,9 +6,6 @@ i = open("input.txt").readlines()
 i = [l.strip("\n") * len(i) for l in i]
 o = 0
 
-
-slopes = [(1, 1), (5, 1), (3, 1), (7, 1), (1, 2)]
-
 row = 0
 x = 0
 
